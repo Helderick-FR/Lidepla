@@ -1,0 +1,30 @@
+site_name: Lidepla Documentation
+theme:
+  name: material
+plugins:
+  - pub-obsidian:
+      obsidian_dir: lidepla-doc/docs/.obsidian
+      templates_dir: lidepla-doc/docs/_templates
+      backlinks:
+        enabled: true
+      callouts:
+        enabled: true
+      comments:
+        enabled: true
+      links:
+        wikilinks_enabled: true
+      vega:
+        enabled: true
+docs_dir: lidepla-doc/docs
+nav:
+  - home: 'index.md'
+  - introduction: 'en/introduction.md'
+  - grammar:
+      - basics: 'en/grammar/basics.md'
+      - advanced: 'en/grammar/advanced.md'
+  - vocabulary:
+      - common_words: 'en/vocabulary/common_words.md'
+      - phrases: 'en/vocabulary/phrases.md'
+  - resources:
+      - books: 'en/resources/books.md'
+      - websites: 'en/resources/websites.md'
